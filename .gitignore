@@ -1,0 +1,35 @@
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+.env.*
+
+
+# Maven build output
+target/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs and generated reports
+*.log
+logs/
+reports/
+
+# Secrets and environment files
+#.env
+#.env.*
+#!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
